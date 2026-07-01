@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="stud.css">
+ 
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+`
+    <form action="student.js" method="post">
+
+        <!-- Name -->
+        <label for="name" id ="abc">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- USN -->
+        <label for="usn">USN:</label><br>
+        <input type="text" id="usn" name="usn" placeholder="Enter your USN" required >
+        <br><br>
+
+        <!-- Email -->
+        <label for="email" class="abcd">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel"
+               id="phone"
+               name="phone"
+               placeholder="9876543210"
+               pattern="[0-9]{10}"
+               required>
+        <br><br>
+
+        <!-- Department -->
+        <label for="department">Department:</label><br>
+        <select id="department" name="department" required>
+            <option value="">--Select Department--</option>
+            <option>CSE</option>
+            <option>ISE</option>
+            <option>ECE</option>
+            <option>AIML</option>
+            <option>ME</option>
+        </select>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <!-- Skills -->
+        <label>Skills:</label><br>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" id="react" name="skills" value="React">
+        <label for="react">React</label>
+
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address"
+                  name="address"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter your address"></textarea>
+
+        <br><br>
+
+       <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

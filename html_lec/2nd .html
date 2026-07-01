@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML Structural Tags</title>
+</head>
+<body>
+  <header>
+    <h1>HTML Structural Tags Tutorial</h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#sections">Sections</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="intro">
+      <h2>Introduction to Semantic HTML</h2>
+      <p>Semantic HTML uses tags that describe the meaning of content, not just its appearance.</p>
+      
+      <section>
+        <h3>Why Use Semantic Tags?</h3>
+        <ul>
+          <li>Better accessibility</li>
+          <li>Improved SEO</li>
+          <li>Easier to maintain</li>
+        </ul>
+      </section>
+    </article>
+
+    <article id="sections">
+      <h2>Common Structural Tags</h2>
+      
+      <section>
+        <h3>Header and Navigation</h3>
+        <p>The <code>&lt;header&gt;</code> contains introductory content and <code>&lt;nav&gt;</code> holds navigation links.</p>
+      </section>
+
+      <section>
+        <h3>Main Content</h3>
+        <p>The <code>&lt;main&gt;</code> tag contains the primary content of the page.</p>
+        
+        <aside>
+          <h4>Quick Tip</h4>
+          <p>Use only one <code>&lt;main&gt;</code> element per page!</p>
+        </aside>
+      </section>
+
+      <section>
+        <h3>Articles and Sections</h3>
+        <p><code>&lt;article&gt;</code> represents independent content, while <code>&lt;section&gt;</code> groups related content.</p>
+        
+        <details>
+          <summary>Click to see more details</summary>
+          <p>Articles can be syndicated independently, like blog posts or news stories.</p>
+        </details>
+      </section>
+    </article>
+
+    <article>
+      <h2>Additional Elements</h2>
+      
+      <section>
+        <h3>Figures and Captions</h3>
+        <figure>
+          <pre>
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </pre>
+          <figcaption>Example of basic HTML structure</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h3>Blockquotes</h3>
+        <blockquote cite="https://www.w3.org/">
+          <p>"The Web is for everyone."</p>
+          <footer>— W3C Mission</footer>
+        </blockquote>
+      </section>
+    </article>
+  </main>
+
+  <aside>
+    <h2>Did You Know?</h2>
+    <p>HTML5 introduced many semantic elements to make web pages more meaningful.</p>
+  </aside>
+
+  <footer id="contact">
+    <section>
+      <h2>Contact Information</h2>
+      <address>
+        <p>Email: <a href="mailto:learn@example.com">learn@example.com</a></p>
+        <p>Website: <a href="https://example.com">example.com</a></p>
+      </address>
+    </section>
+    <p><small>&copy; 2024 HTML Learning Center. All rights reserved.</small></p>
+    <p><time datetime="2024-01-15">Last updated: January 15, 2024</time></p>
+  </footer>
+</body>
+</html>
