@@ -10,13 +10,14 @@ This file maintains an up-to-date list of project files and structure.
 - 📁 `css-lecture/`
   - 📄 `css-lecture\abc.html` (HTML)
   - 📄 `css-lecture\abcd.css` (CSS)
-- 📄 `1st.html` (HTML)
-- 📄 `2nd .html` (HTML)
-- 📄 `3rd.html` (HTML)
-- 📄 `atributes.html` (HTML)
-- 📄 `forms.html` (HTML)
-- 📄 `studentform.html` (HTML)
-- 📄 `tables.html` (HTML)
+- 📁 `html_lec/`
+  - 📄 `html_lec\1st.html` (HTML)
+  - 📄 `html_lec\2nd .html` (HTML)
+  - 📄 `html_lec\3rd.html` (HTML)
+  - 📄 `html_lec\atributes.html` (HTML)
+  - 📄 `html_lec\forms.html` (HTML)
+  - 📄 `html_lec\studentform.html` (HTML)
+  - 📄 `html_lec\tables.html` (HTML)
 
 ---
-Last updated: 2026-07-01T12:05:03.325Z
+Last updated: 2026-07-02T12:24:14.655Z
