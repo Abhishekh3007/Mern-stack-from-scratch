@@ -18,6 +18,13 @@ This file maintains an up-to-date list of project files and structure.
   - 📄 `html_lec\forms.html` (HTML)
   - 📄 `html_lec\studentform.html` (HTML)
   - 📄 `html_lec\tables.html` (HTML)
+- 📁 `javascript/`
+  - 📄 `javascript\conditions.js` (JavaScript)
+  - 📄 `javascript\functions.js` (JavaScript)
+  - 📄 `javascript\imain.html` (HTML)
+  - 📄 `javascript\index.js` (JavaScript)
+  - 📄 `javascript\loops.js` (JavaScript)
+  - 📄 `javascript\operator.js` (JavaScript)
 
 ---
-Last updated: 2026-07-02T12:24:14.655Z
+Last updated: 2026-07-03T13:22:19.699Z
