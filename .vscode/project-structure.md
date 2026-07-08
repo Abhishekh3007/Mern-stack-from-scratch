@@ -39,6 +39,7 @@ This file maintains an up-to-date list of project files and structure.
   - 📄 `javascript\inheritance.js` (JavaScript)
   - 📄 `javascript\loops.js` (JavaScript)
   - 📄 `javascript\operator.js` (JavaScript)
+- 📄 `reactVSvanial.html` (HTML)
 
 ---
-Last updated: 2026-07-08T05:47:59.961Z
+Last updated: 2026-07-08T10:31:20.876Z
