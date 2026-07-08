@@ -24,22 +24,22 @@ add(10,12,cal);
 
 //////////////////////////////
 
-//call back hell  function
+// call back hell  function
 
-// login(function(){
+login(function(){
 
-//     profile(function(){
+    profile(function(){
 
-//         orders(function(){
+        orders(function(){
 
-//             payment(function(){
+            payment(function(){
 
-//                 logout();
+                logout();
 
-//             });
+            });
 
-//         });
+        });
 
-//     });
+    });
 
-// });
+});

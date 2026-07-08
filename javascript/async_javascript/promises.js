@@ -17,4 +17,13 @@ promise.then((data)=>{
 });
 
 
-
+//promise chaining
+fetchdata().then((data)=>{
+    console.log(data);
+    return data;
+});
+fetchdata().then((data)=>{  
+    orderproduct(data).then((data)=>{       
+      console.log(data);
+    });
+});
