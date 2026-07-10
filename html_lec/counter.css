@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(135deg, #111827, #1f2937 55%, #0f172a);
+	color: #f9fafb;
+}
+
+.counter-card {
+	width: min(92vw, 360px);
+	padding: 2rem;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	backdrop-filter: blur(10px);
+}
+
+.counter-card h1 {
+	margin: 0 0 0.75rem;
+	font-size: 2rem;
+}
+
+.counter-label {
+	margin: 0;
+	font-size: 0.95rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #cbd5e1;
+}
+
+.counter-value {
+	margin: 1rem 0 1.5rem;
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.button-row {
+	display: flex;
+	gap: 0.75rem;
+}
+
+button {
+	flex: 1;
+	border: 0;
+	border-radius: 12px;
+	padding: 0.9rem 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+button:hover {
+	transform: translateY(-1px);
+}
+
+button:active {
+	transform: translateY(1px);
+}
+
+#downBtn {
+	background: #ef4444;
+	color: white;
+}
+
+#downBtn:hover {
+	background: #dc2626;
+}
+
+#upBtn {
+	background: #22c55e;
+	color: white;
+}
+
+#upBtn:hover {
+	background: #16a34a;
+}
