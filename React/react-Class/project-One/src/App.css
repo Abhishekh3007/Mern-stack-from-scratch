@@ -1,4 +1,10 @@
-p{
-   font-size: xx-large;
+.App{
+   display:flex;
+   gap:20px;
+   justify-content:center;
+   align-items:flex-start;
+   flex-wrap:wrap;
+   padding:24px;
+   
 
 }
