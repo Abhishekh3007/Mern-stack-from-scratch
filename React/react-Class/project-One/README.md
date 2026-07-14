@@ -1,16 +1,43 @@
-# React + Vite
+# MERN Stack Learning Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a from-scratch learning space for the MERN stack.
 
-Currently, two official plugins are available:
+The project starts with React and grows step by step. Each file, component, and practice example is meant to show how the codebase is built, so you can move through it and understand the concepts as they are added.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Notes
 
-## React Compiler
+- Start here if you want to follow the learning path from the beginning.
+- The code is intentionally written in small pieces so the ideas stay easy to track.
+- As the project grows, MongoDB, Express, React, and Node concepts will be added in the same learning style.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What This Repo Contains
 
-## Expanding the ESLint configuration
+- Small React components and practice examples.
+- State, props, and component composition exercises.
+- Learning-focused code that is organized for reading and revision.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How To Read The Code
+
+- Follow the files one by one instead of jumping straight to the end.
+- Look at how components are split and how data flows between them.
+- Use the comments and note lines in the codebase as checkpoints while learning.
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Other useful commands:
+
+```bash
+npm run build
+npm run lint
+```
+
+## Learning Approach
+
+This project is being built concept by concept. The goal is to move through the codebase, understand each step, and gradually cover the full MERN stack with practical examples.
+
+If you read the files in order, the learning path should feel like a guided progression from basic React ideas to more complete full-stack concepts over time.

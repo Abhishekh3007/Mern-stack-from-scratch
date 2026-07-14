@@ -19,6 +19,9 @@ This file maintains an up-to-date list of project files and structure.
   - 📄 `html_lec\1st.html` (HTML)
   - 📄 `html_lec\2nd .html` (HTML)
   - 📄 `html_lec\atributes.html` (HTML)
+  - 📄 `html_lec\counter.css` (CSS)
+  - 📄 `html_lec\counter.html` (HTML)
+  - 📄 `html_lec\counter.js` (JavaScript)
   - 📄 `html_lec\forms.html` (HTML)
   - 📄 `html_lec\studentform.html` (HTML)
   - 📄 `html_lec\tables.html` (HTML)
@@ -54,17 +57,25 @@ This file maintains an up-to-date list of project files and structure.
           - 📄 `React\react-Class\project-One\src\assets\two.png` (Unknown)
           - 📄 `React\react-Class\project-One\src\assets\vite.svg` (Unknown)
         - 📁 `React\react-Class\project-One\src\components/`
+          - 📄 `React\react-Class\project-One\src\components\Button.css` (CSS)
+          - 📄 `React\react-Class\project-One\src\components\Button.jsx` (React)
+            - *Imports:* `./Button.css`
           - 📄 `React\react-Class\project-One\src\components\cards.css` (CSS)
           - 📄 `React\react-Class\project-One\src\components\cards.jsx` (React)
             - *Imports:* `./cards.css`
           - 📄 `React\react-Class\project-One\src\components\child.jsx` (React)
             - *Imports:* `./grandchild`
+          - 📄 `React\react-Class\project-One\src\components\Counter.css` (CSS)
+          - 📄 `React\react-Class\project-One\src\components\Counter.jsx` (React)
+            - *Imports:* `react`, `./counter.css`
+          - 📄 `React\react-Class\project-One\src\components\cr.jsx` (React)
           - 📄 `React\react-Class\project-One\src\components\grandchild.jsx` (React)
           - 📄 `React\react-Class\project-One\src\components\parent.jsx` (React)
             - *Imports:* `./child`
+          - 📄 `React\react-Class\project-One\src\components\stateLift.jsx` (React)
         - 📄 `React\react-Class\project-One\src\App.css` (CSS)
         - 📄 `React\react-Class\project-One\src\App.jsx` (React)
-          - *Imports:* `./App.css`, `./components/Parent.jsx`
+          - *Imports:* `./components/cr.jsx`, `react`
         - 📄 `React\react-Class\project-One\src\index.css` (CSS)
         - 📄 `React\react-Class\project-One\src\main.jsx` (React)
           - *Imports:* `react-dom/client`, `./index.css`, `./App.jsx`
@@ -81,4 +92,4 @@ This file maintains an up-to-date list of project files and structure.
 - 📄 `reactVSvanial.html` (HTML)
 
 ---
-Last updated: 2026-07-10T05:25:25.381Z
+Last updated: 2026-07-14T04:27:02.186Z

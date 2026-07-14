@@ -5,36 +5,23 @@
 // import two from './assets/two.jpg'
 // import Parent from './components/parent.jsx'
 // import Counter from './components/Counter.jsx'
-import Button from'./components/Button.jsx'
+// import Button from'./components/Button.jsx'
+import Cr from './components/cr.jsx'
 import {useState } from 'react'
-
+// import   StateLift from './components/stateLift.jsx'
 function App() {
   // const name = "Dhanush";
-  const[state,setState]=useState(0);
+  // const[state,setState]=useState(' ');
+const[islogged,setLogged]=useState(true);
+// function handleclick(){
+//   setLogged();
+//   <h1>welcoem to the app</h1>
+// }
+  // function handleClick(){
+  //   setState(state+1);
+  // } 
 
-  function handleClick(){
-    setState(state+1);
-  } 
-
-  return (
-    <div className="App">
-    
-    {/* <Cards  name='Dhanush ' desc='Full Stack Developer' image={one} />
-    <Cards  name ='Jhon' desc='DevOps Engineer' image={two} /> */}
-    {/* <Parent data={name} /> */}
-    {/* <Counter />
-    <Cards>
-      <h1>Hello</h1>
-      <h2>HEllo</h2>
-      
-    </Cards> */}
-    <Button inc={handleClick} text='INCREMENT' >
-      {state};
-
-
-    </Button>
-    </div>
-  )
+  return islogged ? <Cr fun={setLogged} /> : <h1>Please log in</h1>
 }
 
 export default App
