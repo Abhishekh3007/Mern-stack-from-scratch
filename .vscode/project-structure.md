@@ -69,13 +69,18 @@ This file maintains an up-to-date list of project files and structure.
           - 📄 `React\react-Class\project-One\src\components\Counter.jsx` (React)
             - *Imports:* `react`, `./counter.css`
           - 📄 `React\react-Class\project-One\src\components\cr.jsx` (React)
+          - 📄 `React\react-Class\project-One\src\components\Eventh.jsx` (React)
+            - *Imports:* `react`, `./userContext`
           - 📄 `React\react-Class\project-One\src\components\grandchild.jsx` (React)
           - 📄 `React\react-Class\project-One\src\components\parent.jsx` (React)
-            - *Imports:* `./child`
+            - *Imports:* `./userContext`, `react`
           - 📄 `React\react-Class\project-One\src\components\stateLift.jsx` (React)
+          - 📄 `React\react-Class\project-One\src\components\userContext.jsx` (React)
+            - *Imports:* `react`
         - 📄 `React\react-Class\project-One\src\App.css` (CSS)
         - 📄 `React\react-Class\project-One\src\App.jsx` (React)
-          - *Imports:* `./components/cr.jsx`, `react`
+          - *Imports:* `./components/cards.jsx`, `./components/parent.jsx`, `react`, `./components/Eventh.jsx`, `./components/userContext.jsx`, `react-router-dom`
+          - *Routes Provided:* `GET /`, `GET about`, `GET /contact`, `GET /`, `GET about`, `GET /contact`
         - 📄 `React\react-Class\project-One\src\index.css` (CSS)
         - 📄 `React\react-Class\project-One\src\main.jsx` (React)
           - *Imports:* `react-dom/client`, `./index.css`, `./App.jsx`
@@ -85,11 +90,10 @@ This file maintains an up-to-date list of project files and structure.
       - 📄 `React\react-Class\project-One\index.html` (HTML)
       - 📄 `React\react-Class\project-One\package-lock.json` (JSON)
       - 📄 `React\react-Class\project-One\package.json` (JSON)
-      - 📄 `React\react-Class\project-One\README.md` (Markdown)
       - 📄 `React\react-Class\project-One\vite.config.js` (JavaScript)
         - *Imports:* `vite`, `@vitejs/plugin-react`
-    - 📄 `React\react-Class\Readme.md` (Markdown)
 - 📄 `reactVSvanial.html` (HTML)
+- 📄 `README.md` (Markdown)
 
 ---
-Last updated: 2026-07-14T04:27:02.186Z
+Last updated: 2026-07-17T05:17:13.741Z

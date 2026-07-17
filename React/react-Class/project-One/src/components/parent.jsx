@@ -1,10 +1,13 @@
-
-import Child from "./child"
-const Parent = ({ data }) => {
+import userContext from "./userContext"
+// import Child from "./child"
+import { useContext } from "react"
+const Parent = () => {
+  const user=useContext(userContext);
   return (
     <div>
         <h1>Parent component</h1>
-      <Child data={data} />
+        <p>{user.name}</p>
+      
     </div>
   )
 }
